@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tee's b</title>
+  <link rel="stylesheet" href="CSS\style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">thank you for taking the time to help usimprove the platform</p>
+  </header>
+  <form id="survey-form" >
+    <div class="action">
+      <label for="Name" id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <label for="Email" id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter your Email" required>
+      <label for="number" id="number-label">Age(optional)</label>
+      <input
+      id="number"
+      type="number"
+      name="age"
+      min="1" 
+      max="90"
+      placeholder="Age">
+    </div> 
+
+    <div class="role">
+      <h3>which option best describe your current role?</h3>
+      <select id="dropdown">
+        <option >select current role</option>
+        <option value="student">Student</option>
+        <option value="job">Full Time Job</option>
+        <option value="learner">Full Time Learner</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="data">
+      <h3>Would you recommend freeCodeCamp to a friend?</h3>
+      <div>
+        <input name="opinion" type="radio" value="only">
+        <label>Only</label>
+      </div>
+      
+      <div>
+        <input name="opinion" type="radio" value="maybe">
+        <label>Maybe</label>
+      </div>
+      
+      <div>
+        <input name="opinion" type="radio" value="not sure">
+        <label>Not sure</label>
+      </div>
+    </div>
+
+    <div>
+      <h3> what is your favorite feature freeCodeCamp?</h3>
+      <select>
+        <option >Select an option</option>
+        <option value="Teachers">Teachers</option>
+        <option value="Students">Students</option>
+        <option value="professor">professor</option>
+        <option value="employer">employer</option>
+      </select>
+    </div>
+
+    <div class="main">
+      <h3>what would you like to see improved?(check all that apply) </h3>
+      <div>
+        <input type="checkbox">
+        <label for="scales">Front-end Project</label>
+      </div>
+      <input type="checkbox">
+      <label for="scales">back-end project</label>
+      <br>
+      <input type="checkbox">
+      <label for="scales">Data Visualization</label>
+      <br>
+      <input type="checkbox">
+      <label for="scales">Challenges</label>
+      <br>
+      <input type="checkbox">
+      <label for="scales">Open Source</label>
+      <br>
+      <input type="checkbox">
+      <label for="scales">Gitter help rooms</label>
+      <br>
+      <input type="checkbox">
+      <label for="scales">Videos</label>
+      <br>
+      <input type="checkbox">
+      <label for="scales">City Meetups</label>
+      <br>
+      <input type="checkbox">
+      <label for="scales">Wiki</label> 
+      <br>
+      <input type="checkbox">
+      <label for="scales">Forum</label>
+
+      <div class="option">
+        <h3>Any comments or suggestions?</h3>
+        <input type="text" placeholder="Enter your comment here">
+        <button type="submit">Submit</button>
+      </div>
+    </div>
+  </form>
+  
+</body>
+</html>

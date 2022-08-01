@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tee's b</title>
+    <link rel="stylesheet" href="CSS\style.css">
+</head>
+<body>
+    <div class="contaner">
+      <header class="header">
+        <img src="https://www.robotlab.com/hubfs/goran-ivos-iOykDIkZLQw-unsplash.jpg">
+      
+      
+        <br>
+        <h1>freeCodeCamp Survey Form</h1>
+        <p class="mb">thank you for taking the time to help usimprove the platform</p>
+      </header>
+      <form >
+        <br>
+        <div class="action">
+          <label for="Name">Name</label>
+          <br>
+          <input type="text" placeholder="Enter your name" required>
+          <br><br>
+          <label for="Email">Email</label>
+          <br>
+          <input type="text" placeholder="Enter your Email">
+          <br><br>
+          <label for="Age">Age (optional)</label>
+          <br>
+          <input type="text" placeholder="Age">
+          <br><br>
+          <label for="text">which option best describe your current role?</label>
+          <br>
+          
+          <input type="text" placeholder="select current role">
+          <br><br>
+          <h3>would you recommend<br> freeCodeCamp to a friend?</h3>
+          <br>
+        
+          <div class="Data">
+            <ul>
+            <li>Definitely</li>
+            <li>Maybe</li>
+            <li>Not sure</li>
+            </ul>
+          </div>
+          <br>
+          <label for="text">whatop is your favorite feature freeCodeCamp?</label>
+          <br>
+          <input type="text" placeholder="select an option">
+          <br><br>
+          <h3>what would you like to see improved?(check all that apply) </h3>
+        </div>
+        <br>
+        <div class="main">
+
+          <ul style="list-style-type:square;">
+            <li>front-end project</li>
+            <li>back-end project</li>
+            <li>Data Visualization</li>
+            <li>Challenges</li>
+            <li>Open Source</li>
+            <li>Gitter help rooms</li>
+            <li>Videos</li>
+            <li>City Meetups</li>
+            <li>Wiki</li>
+            <li>Forum</li>
+            <li>Additional courses</li>
+            <br>
+            <h3>Any comments or suggestions?</h3>
+            <div class="option">
+              <input type="text" placeholder="Enter your comment here">
+            </div>
+            <br>
+            <button type="button">Submit</button>
+          </ul>
+        </div>
+
+      </form>
+    </div>
+</body>
+</html>
+
+
+
+/* *{
+    margin: 0;
+    
+}
+
+img{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 1100px;
+width: 1350px; 
+display: block;564e
+opacity: 0.7;
+}
+
+.ware{
+    margin-top: -82%;
+    font-size: 20px;
+    position: relative;
+}
+
+
+.ware h1{
+margin-left: 420px;
+color: #fff;
+}
+ .ware p{
+    margin-left: 440px;
+    color: #fff;
+}
+.ware span{
+    margin-left: 70px;
+}
+form {
+    position: absolute;
+    width: 750px;
+    height: 910px;
+    background-color: rgba(0, 0, 0, 0.897);
+    color: white;
+    margin-left: 300px;
+    font-size: -600px;
+}
+.option input {
+    height: 30px;
+    color: #fff;
+    background:transparent;
+    border-bottom: 1px solid white;
+    width: 230px;
+    padding: 15px;
+}
+.action input{
+    width: 280px;
+
+}
+.action{
+ margin-left: 30px;
+}
+button{
+    margin-left: 8px;
+    width: 250px;
+    color: #fff;
+    padding: 8px;
+    background-color: rgb(21, 151, 21);
+}
+.mb {
+   margin-bottom: 30px;
+} */
